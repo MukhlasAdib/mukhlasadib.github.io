@@ -1,0 +1,9 @@
+[project]
+name = "mukhlasadib-github-io"
+version = "0.1.0"
+description = "My portofolio page"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs>=1.6.1",
+]
