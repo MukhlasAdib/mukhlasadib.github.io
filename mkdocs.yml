@@ -1,0 +1,26 @@
+site_name: Mukhlas Adib
+site_url: https://mukhlasadib.github.io/
+theme:
+  name: material
+  features:
+    - navigation.tabs: false
+    - navigation.sections: false
+    - navigation.expand: false
+    - navigation.top: false
+
+plugins:
+  - macros
+  
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/layout.css
+  - stylesheets/picture.css
+
+watch:
+  - main.py

@@ -1,6 +1,4 @@
-def main():
-    print("Hello from mukhlasadib-github-io!")
-
-
-if __name__ == "__main__":
-    main()
+def define_env(env):
+    @env.macro
+    def icon(name):
+        return f'<span class="material-symbols-outlined material-icon">{name}</span>'
