@@ -1,0 +1,8 @@
+.circle-photo {
+  display: block;
+  margin: 2rem auto;
+  width: 280px;          
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+}
