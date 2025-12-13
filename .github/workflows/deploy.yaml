@@ -1,4 +1,4 @@
-name: Deploy MkDocs site to GitHub Pages
+name: Deploy MkDocs site
 
 on:
   push:
@@ -13,18 +13,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
       - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
+        run: uv python install 3.12
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+        run: uv sync --frozen
 
       - name: Deploy to GitHub Pages
-        run: |
-          mkdocs gh-deploy --force
+        run: uv run mkdocs gh-deploy --force
