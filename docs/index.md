@@ -18,19 +18,40 @@
 
 ## Edge AI System for Real-time CCTV Analysis for High-level Safety System  
 
-TBA
+Years of experience in building real-time CCTV analysis at edge with Python. Some points of this project is as follow:
+
+- Featured with object detection, segmentation, classification, etc
+- Deployment on edge device with NVIDIA GPU (Jetson)
+- Integration with IoT platform in the Cloud for deployment and monitoring
+- Hard-level performance optimization, from the ML models until the application code/algorithms
+- Replacing more than 50% of human involvement!
 
 ## MLOps Pipeline for Computer Vision Projects
 
-TBA
+Making MLOps pipeline for computer vision tasks is not obvious. I have experienced building and maintaining MLOps pipeline from zero to production. Some points for this project are:
+
+- End-to-end pipeline from data aggregation, annotation, dataset management, until model deployment
+- Model performance monitoring in the cloud
+- Research on dataset optimization
+- Model and application level evaluation & CI pipeline
+- In-house dashboard to operate the platform
 
 ## Training Diffusion XL LoRa for Object-specific Image Generation
 
-TBA
+One of the strength of using open-source image generation model is the ability to customize the model capability. Customly trained diffusion models is usually done to make a model that can produce images of specific person, object, animal, style, etc.
+
+My experience in fine-tuning diffusion models starts from data collection, annotation (WD tagger models), data preparation, training (Kohya SS), and evaluation.
 
 ## Customized Open-Source-based Image Generation with Diffusion Models
 
-TBA
+Using ComfyUI, I am experienced in building customized image generation pipeline with open-source diffusion/flux model. I am able to create/edit images with various techniques such as:
+
+- Advanced customized image generarion with Stable Diffusion and Flux
+- Concept injection with LoRa
+- Concept injection with textual inversion
+- Editing with inpainting (differential diffusion)
+- Concept injection in zero-shot way with IPAdapter
+- Video generation with WAN models
 
 ## PyStream Pipeline: Real-time Python Data Pipeline Framework
 
