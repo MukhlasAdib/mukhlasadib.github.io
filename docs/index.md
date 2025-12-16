@@ -4,7 +4,31 @@
 
 ![Profile photo](pics/myphoto.jpeg){ .circle-photo }
 
+<div style="text-align: center;">
+  <a href="https://www.linkedin.com/in/mukhlas-adib-550b98117/" target="_blank"
+     style="
+       display: inline-flex;
+       align-items: center;
+       gap: 8px;
+       padding: 10px 16px;
+       background-color: #0A66C2;
+       color: white;
+       border-radius: 6px;
+       text-decoration: none;
+       font-weight: 600;
+     ">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+         width="18"
+         height="18"
+         style="filter: invert(1);">
+    Profile
+  </a>
+</div>
+
+
+
 <div class="intro-points" markdown="1">
+
 
 {{ icon("person_check") }} Professional ML/AI Engineer and Consultant
 
@@ -18,6 +42,10 @@
 
 ## Edge AI System for Real-time CCTV Analysis for High-level Safety System  
 
+![CCTV](pics/cctv-project.png)
+
+*the above image is an illustration made by ChatGPT*
+
 Years of experience in building real-time CCTV analysis at edge with Python. Some points of this project is as follow:
 
 - Featured with object detection, segmentation, classification, etc
@@ -27,6 +55,10 @@ Years of experience in building real-time CCTV analysis at edge with Python. Som
 - Replacing more than 50% of human involvement!
 
 ## MLOps Pipeline for Computer Vision Projects
+
+![MLOps](pics/cv-mlops.png)
+
+*the above diagram styling was done by Gemini*
 
 Making MLOps pipeline for computer vision tasks is not obvious. I have experienced building and maintaining MLOps pipeline from zero to production. Some points for this project are:
 
@@ -43,6 +75,10 @@ One of the strength of using open-source image generation model is the ability t
 My experience in fine-tuning diffusion models starts from data collection, annotation (WD tagger models), data preparation, training (Kohya SS), and evaluation.
 
 ## Customized Open-Source-based Image Generation with Diffusion Models
+
+![ComfyUI](pics/comfyui.png)
+
+*image above is an illustration ([source](https://github.com/comfyanonymous/ComfyUI))*
 
 Using ComfyUI, I am experienced in building customized image generation pipeline with open-source diffusion/flux model. I am able to create/edit images with various techniques such as:
 
@@ -79,31 +115,6 @@ A simple model converter to export [SOLOv2 instance segmentation model](https://
 
 [GitHub: SOLOv2 ONNX](https://github.com/MukhlasAdib/SOLOv2_ONNX)
 
-## Smart Split-Bill: Split Your Bill with Friends Easily
-
-![Splitbill](pics/split-bill.jpg)
-
-A demo web application that can read yout purchase bill image and split the total amount with your friends automatically. This application includes:
-
-- Receipt OCR using LLM: [Donut (offline)](https://arxiv.org/abs/2111.15664) / Gemini
-- Advanced Streamlit dashboard to split the item bills with registered participants
-
-[GitHub: Split-Bill App](https://github.com/MukhlasAdib/split-bill-app)
-
-[Streamlit Demo](https://mukhlas-splitbill.streamlit.app/)
-
-## Simple Electricity IoT System and Forecasting Dashboard
-
-![Forecast](pics/electricity-forecast.jpg){ width="800" .center }
-
-An experimental personal project to build an IoT system for electricity monitoring and forecasting. This project includes the following:
-
-- Electricity consumption forecasting using fine-tuned LGBM model, via [Darts package](https://unit8co.github.io/darts/). 
-- Stearmlit-based dashboard to visualize the electricity data.
-- Dummy code to gather electricity data using ESP32 microcontroller and send it to cloud server.
-
-[GitHub: Electricity Usage Monitoring and Forecasting](https://github.com/MukhlasAdib/electricity-forecast-experiment)
-
 ## Environment Mapping for Autonomous Vehicle with OGM and DGM
 
 ![DGM](pics/dgm.gif)
@@ -133,3 +144,28 @@ I did a significant amount of research on autonomous vehicles using [Carla Simul
 [GitHub: CARLA Vehicle 2D Bounding Box Annotation Module](https://github.com/MukhlasAdib/CARLA-2DBBox)
 
 [Paper: A Framework for Road Boundary Detection based on Camera-LIDAR Fusion in World Coordinate System and Its Performance Evaluation Using Carla Simulator](https://www.techrxiv.org/doi/full/10.36227/techrxiv.21277656)
+
+## Smart Split-Bill: Split Your Bill with Friends Easily
+
+![Splitbill](pics/split-bill.jpg)
+
+A demo web application that can read yout purchase bill image and split the total amount with your friends automatically. This application includes:
+
+- Receipt OCR using LLM: [Donut (offline)](https://arxiv.org/abs/2111.15664) / Gemini
+- Advanced Streamlit dashboard to split the item bills with registered participants
+
+[GitHub: Split-Bill App](https://github.com/MukhlasAdib/split-bill-app)
+
+[Streamlit Demo](https://mukhlas-splitbill.streamlit.app/)
+
+## Simple Electricity IoT System and Forecasting Dashboard
+
+![Forecast](pics/electricity-forecast.jpg){ width="800" .center }
+
+An experimental personal project to build an IoT system for electricity monitoring and forecasting. This project includes the following:
+
+- Electricity consumption forecasting using fine-tuned LGBM model, via [Darts package](https://unit8co.github.io/darts/). 
+- Stearmlit-based dashboard to visualize the electricity data.
+- Dummy code to gather electricity data using ESP32 microcontroller and send it to cloud server.
+
+[GitHub: Electricity Usage Monitoring and Forecasting](https://github.com/MukhlasAdib/electricity-forecast-experiment)
