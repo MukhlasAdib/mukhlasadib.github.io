@@ -1,0 +1,35 @@
+.md-header {
+  display: none;
+}
+
+.md-sidebar--primary {
+  display: none;
+}
+
+.md-main {
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.md-content h1:first-of-type {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.material-icon {
+  font-size: 1.5rem !important;
+  color: #474747;
+  vertical-align: bottom;
+}
+
+:root {
+  /* --md-default-bg-color: #c9c8c7; */
+}
+
+.intro-points {
+  font-size: 1.025rem;   
+  line-height: 1.6;
+  color: #474747;
+  margin-left: 18vw;
+}
